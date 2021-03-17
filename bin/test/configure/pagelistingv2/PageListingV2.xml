@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+	xmlns:cq="http://www.day.com/jcr/cq/1.0"
+	xmlns:jcr="http://www.jcp.org/jcr/1.0"
+	xmlns:nt="http://www.jcp.org/jcr/nt/1.0" jcr:primaryType="cq:Page">
+	<jcr:content
+		cq:template="/apps/unilever-iea/templates/unileverBaseTemplate"
+		sling:resourceType="unilever-iea/pagecomponents/flexibleLayoutBasePage"
+		jcr:title="pagelistingv2" jcr:description="PageListingV2 page"
+		jcr:primaryType="cq:PageContent" pageTitle="PageListingV2 page">
+		<flexi_hero_par jcr:primaryType="nt:unstructured"
+			sling:resourceType="foundation/components/parsys">
+			<pagelistingv2 jcr:primaryType="nt:unstructured"
+				sling:resourceType="unilever-iea/components/pageListingV2"
+				componentName="pageListingV2" clientSideRendering="false"
+				clientSideComponentName="page-listing-v2">
+			</pagelistingv2>
+					
+		</flexi_hero_par>
+	</jcr:content>
+</jcr:root>

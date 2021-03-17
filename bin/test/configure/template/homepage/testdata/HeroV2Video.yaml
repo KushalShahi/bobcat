@@ -1,0 +1,53 @@
+BASIC:
+- label: Hero type
+  type: DROPDOWN_AC
+  value: Video
+- label: Heading text
+  type: TEXTFIELD_AC
+  value: This is test Hero V2 Video
+- label: Short subheading text
+  type: TEXTFIELD_AC
+  value: This is Short Subheading for Hero V2 Video
+- label: Long subheading text
+  type: RICHTEXT_AC
+  value: This is Long Subheading for Hero V2 Video
+- label: Primary CTA label
+  type: PLAINTEXTFIELD_AC
+  value: PCTA
+- label: Primary CTA URL
+  type: PATHBROWSER_AC
+  value: /content/whitelabel/en_us/home
+- label: Secondary CTA label
+  type: PLAINTEXTFIELD_AC
+  value: SCTA
+- label: Secondary CTA URL
+  type: PATHBROWSER_AC
+  value: /content/whitelabel/en_us/home/products/product-listing-v2
+- label: Open in new window
+  type: CHECKBOX_AC
+  value: true
+
+VIDEO:
+- label: Video source
+  type: DROPDOWN_AC
+  value: YouTube
+- label: Video Id
+  type: PLAINTEXTFIELD_AC
+  value: XpaOjMXyJGk
+- label: Preview image
+  type: IMAGEBROWSE_AC
+  value: /content/dam/unilever/whitelabel/demo/general-image/grafitti-light.jpg
+- label: Preview image ALT text
+  type: PLAINTEXTFIELD_AC
+  value: Video Preview Image
+- label: Mute video audio
+  type: CHECKBOX_AC
+  value: true
+- label: Related video at end?
+  type: CHECKBOX_AC
+  value: true
+
+LAYOUT & STYLE:
+- label: Component
+  type: DROPDOWN_AC
+  value: video

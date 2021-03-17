@@ -1,0 +1,60 @@
+Component configuration:
+[Tab 'BASIC'; config:
+[field:
+	label='Heading text'
+	type='TEXTFIELDV2'
+	value=This is test Hero V2 Image'
+	clear='false'
+, field:
+	label='Short subheading text'
+	type='TEXTFIELDV2'
+	value=This is Short Subheading for Hero V2 Image'
+	clear='false'
+, field:
+	label='Long subheading text'
+	type='RICHTEXTV2'
+	value=This is Long Subheading for Hero V2 Image'
+	clear='false'
+, field:
+	label='Primary CTA label'
+	type='PLAINTEXTFIELDV2'
+	value=PCTA'
+	clear='false'
+, field:
+	label='Primary CTA URL'
+	type='PATHBROWSERV2'
+	value=/content/whitelabel/en_us/home'
+	clear='false'
+, field:
+	label='Secondary CTA label'
+	type='PLAINTEXTFIELDV2'
+	value=SCTA'
+	clear='false'
+, field:
+	label='Secondary CTA URL'
+	type='PATHBROWSERV2'
+	value=/content/whitelabel/en_us/home/products/product-listing-v2'
+	clear='false'
+, field:
+	label='Open in new window'
+	type='CHECKBOXV2'
+	value=true'
+	clear='false'
+], Tab 'IMAGE'; config:
+[field:
+	label='Hero image'
+	type='IMAGEBROWSE'
+	value=/content/dam/unilever/whitelabel/demo/general-image/photo-1444401045234-4a2ab1f645c0-t.jpg'
+	clear='false'
+, field:
+	label='Hero image ALT text'
+	type='PLAINTEXTFIELDV2'
+	value=ALT text'
+	clear='false'
+], Tab 'LAYOUT & STYLE'; config:
+[field:
+	label='Component'
+	type='DROPDOWNV2'
+	value=image'
+	clear='false'
+]]

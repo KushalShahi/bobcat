@@ -1,0 +1,27 @@
+BASIC:
+- label: Heading Text
+  type: PLAINTEXTFIELDV2
+  value: Page Listing V2
+- label: Subheading Text
+  type: RICHTEXTV2
+  value: This is Subheading Text for Page Listing V2 configured using tags
+- label: CTA Label Text
+  type: PLAINTEXTFIELDV2
+  value: Read..
+- label: Build Navigation Using
+  type: DROPDOWNV2
+  value: Tags
+
+TAGS:
+- label: Select content using
+  type: DROPDOWNV2
+  value: Search tags
+- label: Matching Tags
+  type: TAGBROWSERV2
+  value:
+  - D2 Showcase / Product / Type / Bin Products / Shoppable
+
+LAYOUT & STYLE:
+- label: Component
+  type: DROPDOWNV2
+  value: defaultView

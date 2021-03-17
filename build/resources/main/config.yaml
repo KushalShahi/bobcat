@@ -1,0 +1,32 @@
+default:
+ properties:
+  proxy.enabled: false
+  proxy.ip: 127.0.0.1
+  proxy.port: 9000
+  allure.report: true
+  allure.create.enviroment: true
+  webdriver.cap.recordVideo: false
+  webdriver.cap.maxInstances: 1
+  webdriver.maximize: true
+  webdriver.chrome.headless: false
+ contexts: [chrome,rel]
+
+contexts:
+ chrome:
+  webdriver.cap.browserName: chrome
+ firefox:
+  webdriver.cap.browserName: firefox
+ qa2:
+  author.url: http://aalq2.unileversolutions.com
+  author.ip: http://aalq2.unileversolutions.com
+  author.login: deployementuser
+  author.password: d3pl044fer
+  publish.url: https://showcase-eu-qa2.unileversolutions.com
+  publish.ip: http://52.28.136.145:5003
+ rel:
+  author.url: https://aalr.unileversolutions.com
+  author.ip: https://aalr.unileversolutions.com
+  author.login: deployementuser
+  author.password: d3pl044fer
+  publish.url: http://showcase-eu-rel.unileversolutions.com
+  publish.ip: http://52.28.14.128:4003

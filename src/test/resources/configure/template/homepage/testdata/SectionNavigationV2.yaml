@@ -1,0 +1,56 @@
+BASIC:
+- label: Heading Text
+  type: PLAINTEXTFIELD_AC
+  value: Section Navigation _AC Heading text
+- label: Heading Level
+  type: DROPDOWN_AC
+  value: h4
+- label: Sub Heading Text
+  type: PLAINTEXTFIELD_AC
+  value: Section Navigation _AC Sub Heading text
+- label: Build Navigation Using
+  type: DROPDOWN_AC
+  value: Fixed List
+
+LAYOUT & STYLE:
+- label: Component
+  type: DROPDOWN_AC
+  value: list
+
+FIXED LIST:
+- label: Navigation List
+  type: MULTIFIELD_AC
+  value:
+  - item:
+    - label: Navigation List Title
+      type: PLAINTEXTFIELD_AC
+      value: Browse Article By Campaign Type
+    - type: MULTIFIELD_AC
+      value:
+      - item:
+        - label: Navigation Link Label
+          type: PLAINTEXTFIELD_AC
+          value: Choose Beautiful
+        - label: Navigation URL
+          type: PATHBROWSER_AC
+          value: /content/whitelabel/en_ca/home/stories/campaigns/choose-beautiful
+      - item:
+        - label: Navigation Link Label
+          type: PLAINTEXTFIELD_AC
+          value: Ad Makeover
+        - label: Navigation URL
+          type: PATHBROWSER_AC
+          value: /content/whitelabel/en_ca/home/stories/campaigns/ad-makeover
+  - item:
+    - label: Navigation List Title
+      type: PLAINTEXTFIELD_AC
+      value: Browse Article By Tips Type
+    - type: MULTIFIELD_AC
+      value:
+      - item:
+        - label: Navigation Link Label
+          type: PLAINTEXTFIELD_AC
+          value: Shiny Hair
+        - label: Navigation URL
+          type: PATHBROWSER_AC
+          value: /content/whitelabel/en_ca/home/stories/tips-and-how-to/hair-care-tips-advice/how-to-get-shiny-hair

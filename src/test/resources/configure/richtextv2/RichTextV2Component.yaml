@@ -1,0 +1,4 @@
+BASIC:
+- label: Default Text
+  type: RICHTEXT_AC
+  value: This is Test activity

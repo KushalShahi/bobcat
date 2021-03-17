@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+	xmlns:cq="http://www.day.com/jcr/cq/1.0"
+	xmlns:jcr="http://www.jcp.org/jcr/1.0"
+	xmlns:nt="http://www.jcp.org/jcr/nt/1.0" jcr:primaryType="cq:Page">
+	<jcr:content
+		cq:template="/apps/unilever-iea/templates/unileverBaseTemplate"
+		sling:resourceType="unilever-iea/pagecomponents/flexibleLayoutBasePage"
+		jcr:title="testpage" jcr:description="Test page"
+		jcr:primaryType="cq:PageContent" pageTitle="Test page">
+		<flexi_hero_par jcr:primaryType="nt:unstructured"
+			sling:resourceType="foundation/components/parsys">
+			<richtextv2 jcr:primaryType="nt:unstructured"
+				sling:resourceType="unilever-iea/components/richTextV2"
+				componentName="richTextV2" clientSideRendering="false"
+				clientSideComponentName="rich-text-v2">
+				<!-- text="This is test activity"> -->
+			</richtextv2>
+			
+		</flexi_hero_par>
+	</jcr:content>
+</jcr:root>

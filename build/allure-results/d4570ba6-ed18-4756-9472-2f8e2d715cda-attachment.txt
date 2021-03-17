@@ -1,0 +1,85 @@
+Component configuration:
+[Tab 'BASIC'; config:
+[field:
+	label='Hero type'
+	type='DROPDOWNV2'
+	value=Video'
+	clear='false'
+, field:
+	label='Heading text'
+	type='TEXTFIELDV2'
+	value=This is test Hero V2 Video'
+	clear='false'
+, field:
+	label='Short subheading text'
+	type='TEXTFIELDV2'
+	value=This is Short Subheading for Hero V2 Video'
+	clear='false'
+, field:
+	label='Long subheading text'
+	type='RICHTEXTV2'
+	value=This is Long Subheading for Hero V2 Video'
+	clear='false'
+, field:
+	label='Primary CTA label'
+	type='PLAINTEXTFIELDV2'
+	value=PCTA'
+	clear='false'
+, field:
+	label='Primary CTA URL'
+	type='PATHBROWSERV2'
+	value=/content/whitelabel/en_us/home'
+	clear='false'
+, field:
+	label='Secondary CTA label'
+	type='PLAINTEXTFIELDV2'
+	value=SCTA'
+	clear='false'
+, field:
+	label='Secondary CTA URL'
+	type='PATHBROWSERV2'
+	value=/content/whitelabel/en_us/home/products/product-listing-v2'
+	clear='false'
+, field:
+	label='Open in new window'
+	type='CHECKBOXV2'
+	value=true'
+	clear='false'
+], Tab 'VIDEO'; config:
+[field:
+	label='Video source'
+	type='DROPDOWNV2'
+	value=YouTube'
+	clear='false'
+, field:
+	label='Video Id'
+	type='PLAINTEXTFIELDV2'
+	value=XpaOjMXyJGk'
+	clear='false'
+, field:
+	label='Preview image'
+	type='IMAGEBROWSE'
+	value=/content/dam/unilever/whitelabel/demo/general-image/grafitti-light.jpg'
+	clear='false'
+, field:
+	label='Preview image ALT text'
+	type='PLAINTEXTFIELDV2'
+	value=Video Preview Image'
+	clear='false'
+, field:
+	label='Mute video audio'
+	type='CHECKBOXV2'
+	value=true'
+	clear='false'
+, field:
+	label='Related video at end?'
+	type='CHECKBOXV2'
+	value=true'
+	clear='false'
+], Tab 'LAYOUT & STYLE'; config:
+[field:
+	label='Component'
+	type='DROPDOWNV2'
+	value=video'
+	clear='false'
+]]

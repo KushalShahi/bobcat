@@ -1,0 +1,38 @@
+BASIC:
+- label: Heading text
+  type: TEXTFIELD_AC
+  value: This is test Hero V2 Image
+- label: Short subheading text
+  type: TEXTFIELD_AC
+  value: This is Short Subheading for Hero V2 Image
+- label: Long subheading text
+  type: RICHTEXT_AC
+  value: This is Long Subheading for Hero V2 Image
+- label: Primary CTA label
+  type: PLAINTEXTFIELD_AC
+  value: PCTA
+- label: Primary CTA URL
+  type: PATHBROWSER_AC
+  value: /content/whitelabel/en_us/home
+- label: Secondary CTA label
+  type: PLAINTEXTFIELD_AC
+  value: SCTA
+- label: Secondary CTA URL
+  type: PATHBROWSER_AC
+  value: /content/whitelabel/en_us/home/products/product-listing-v2
+- label: Open in new window
+  type: CHECKBOX_AC
+  value: true
+
+IMAGE:
+- label: Hero image
+  type: IMAGEBROWSE_AC
+  value: /content/dam/unilever/whitelabel/demo/general-image/photo-1444401045234-4a2ab1f645c0-t.jpg
+- label: Hero image ALT text
+  type: PLAINTEXTFIELD_AC
+  value: ALT text
+
+LAYOUT & STYLE:
+- label: Component
+  type: DROPDOWN_AC
+  value: image
